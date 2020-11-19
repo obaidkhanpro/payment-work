@@ -1,0 +1,434 @@
+/*-------------Media Querries-----------------*/
+
+@media only screen and (max-width: 1366px) {
+  .container {
+    max-width: 100% !important;
+    padding: 0 20px !important;
+  }
+  .section-enrollment .enrolment-content .table-content .buy-btn a {
+    padding: 10px 27px;
+  }
+  .section-enrollment .enrolment-content .table-content td {
+    font-size: 25px;
+  }
+  .section-enrollment .enrolment-content .payments-content {
+    max-width: 100%;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+}
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .section-enrollment .enrolment-content .table-content .buy-btn a {
+    padding: 6px 16px;
+  }
+  content .new-video-info h2 {
+    font-size: 19px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .new-videos-content
+    .new-video-info
+    h2 {
+    font-size: 18px;
+  }
+  .section-enrollment .enrolment-content .payments-content {
+    padding-left: 30px;
+  }
+  .section-enrollment .enrolment-content .payments-content .input-label label {
+    font-size: 20px;
+  }
+}
+/*------------- 991px -----------------*/
+@media only screen and (max-width: 991px) {
+  .nav-items {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    top: 80px;
+    left: 0px;
+    z-index: 1;
+  }
+  header {
+    position: relative;
+  }
+  header .header-content ul li {
+    padding: 10px 0 !important;
+    &:hover {
+      background-color: #333333;
+    }
+  }
+
+  .section-enrollment .enrolment-content .table-content th {
+    font-size: 18px;
+  }
+  .section-enrollment .enrolment-content .table-content td {
+    font-size: 18px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title {
+    max-width: 300px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title
+    h2 {
+    font-size: 25px;
+  }
+  .section-enrollment .enrolment-content .course-payments {
+    flex-direction: column-reverse;
+  }
+  .section-enrollment .enrolment-content .course-content {
+    padding: 80px 0 50px;
+  }
+  .section-enrollment .enrolment-content .courses-card {
+    max-width: 100%;
+  }
+  .section-enrollment .enrolment-content .course-payments h3 {
+    padding-top: 50px;
+  }
+  .section-enrollment .enrolment-content .payments-content {
+    max-width: 100%;
+  }
+  .footer-logo img {
+    width: 80%;
+  }
+  footer .footer-content .icon-list li a i {
+    font-size: 23px;
+    color: #000000;
+  }
+  footer .footer-content .icon-list li {
+    padding: 0 10px;
+  }
+  footer .footer-content .support span {
+    font-size: 20px;
+  }
+  footer .footer-content .header-items .footer-categories {
+    padding: 0px;
+  }
+  footer .footer-content .header-items {
+    justify-content: space-between !important;
+    padding: 30px 0 50px;
+  }
+  .payment-confirmation-popup .payment-confirmation-popup-content {
+    padding: 40px 20px 55px;
+  }
+}
+/*------------- 767px -----------------*/
+@media only screen and (max-width: 767px) {
+  .section-enrollment .enrolment-content h1 {
+    font-size: 34px;
+  }
+  .section-enrollment .enrolment-content .table-content .table-data {
+    display: none;
+  }
+  .mobile-table {
+    width: 100%;
+  }
+  .section-enrollment .enrolment-content .table-content {
+    display: block;
+  }
+  .section-enrollment .enrolment-content .table-content .total-figure {
+    width: 100%;
+    padding-top: 20px !important;
+    border-top: 1px solid #d0d0d0;
+    border-collapse: unset;
+  }
+  .section-enrollment .enrolment-content .table-content th {
+    width: 50%;
+    font-size: 14px;
+  }
+  .section-enrollment .enrolment-content .table-content td {
+    font-size: 24px;
+  }
+  .section-enrollment .enrolment-content .course-payments h3 {
+    padding-top: 0px;
+  }
+  .section-enrollment .enrolment-content .courses-card {
+    margin-bottom: 30px;
+  }
+  .section-enrollment .enrolment-content .payments-content {
+    padding-left: 0px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .payments-content
+    .input-label
+    .bank-name,
+  .section-enrollment
+    .enrolment-content
+    .payments-content
+    .input-label
+    .email-id {
+    margin-left: 0px;
+    width: 60%;
+  }
+  footer {
+    padding: 50px 0 20px;
+  }
+  footer .footer-content .header-items .footer-categories .footer-list li a {
+    font-size: 20px;
+  }
+  footer .footer-content .footer-bottom p {
+    font-size: 18px;
+    max-width: 238px;
+    line-height: 26px;
+    margin: 0 auto;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title {
+    padding-left: 0;
+    padding-top: 10px;
+    // max-width: 100%;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title
+    h2 {
+    font-size: 24px;
+    padding-bottom: 0;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title {
+    max-width: 356px;
+  }
+  .section-enrollment .enrolment-content .course-content {
+    padding: 50px 0 0px;
+  }
+}
+/*------------- 640px -----------------*/
+@media only screen and (max-width: 640px) {
+  header .header-content form .filter-icon {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  header .header-content form .search-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .form-search {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 86px;
+    max-width: 100px;
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+  .logo {
+    img {
+      width: 80%;
+    }
+  }
+  .section-enrollment .enrolment-content h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .section-enrollment .enrolment-content .table-content .buy-btn a {
+    font-size: 18px;
+    padding: 10px 41px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title {
+    max-width: 100%;
+  }
+  .price-value {
+    position: absolute;
+    right: 25%;
+    top: 20px;
+  }
+  .section-enrollment .enrolment-content .payments-content label {
+    padding: 0;
+  }
+  .section-enrollment
+    .enrolment-content
+    .payments-content
+    .input-label
+    .card-number {
+    max-width: 283px;
+  }
+  .delete-icon {
+    position: absolute;
+    right: 0;
+    top: 24px;
+  }
+  .section-enrollment .enrolment-content .course-content .more-courses-btn {
+    display: none;
+  }
+  .section-enrollment .enrolment-content .payments-content .tab-content label {
+    min-width: 130px;
+  }
+  .section-enrollment .enrolment-content .course-payments {
+    flex-direction: column-reverse;
+  }
+  .section-enrollment .enrolment-content .payments-content .tab-content {
+    padding: 40px 20px 65px;
+    text-align: left;
+  }
+  .section-enrollment .enrolment-content .payments-content {
+    margin-bottom: 20px;
+  }
+  .footer-icons {
+    order: 2;
+  }
+  footer .footer-content .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .support-content {
+    order: 3;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .video-title
+    p {
+    font-size: 17px;
+  }
+  footer .footer-content .header-items .footer-categories h2 {
+    font-size: 24px;
+  }
+  footer .footer-content .header-items {
+    width: 50%;
+    margin: 0 auto;
+  }
+  footer .footer-content .header-items .footer-categories .footer-list li a {
+    font-size: 18px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .payments-content
+    .input-label
+    .email-id {
+    width: 100%;
+  }
+  .section-enrollment .enrolment-content .new-videos-content .new-video {
+    max-width: 144px;
+    height: 88px;
+  }
+  .section-enrollment .enrolment-content .payments-content .tab-header {
+    flex-direction: column;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .bank2 {
+    margin: 10px 0;
+  }
+  .section-enrollment .enrolment-content .payments-content .tab-content {
+    padding: 20px 20px;
+    text-align: left;
+  }
+  .section-enrollment .enrolment-content .payments-content .input-label {
+    padding-bottom: 0px;
+  }
+  .section-enrollment .enrolment-content .course-payments {
+    padding: 20px 0 0px;
+  }
+  .section-enrollment {
+    padding: 20px 0 10px;
+  }
+  .section-enrollment .enrolment-content .course-payments h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    line-height: 30px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .course-content
+    .course-info
+    .course-video {
+    max-width: 144px;
+    height: 85px;
+  }
+  .payment-confirmation-popup .payment-confirmation-popup-content h2 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .payment-confirmation-popup .payment-confirmation-popup-content h3 {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 70%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .payment-confirmation-popup .payment-confirmation-popup-content {
+    padding: 20px 20px 40px;
+  }
+}
+/*------------- 480px -----------------*/
+@media only screen and (max-width: 480px) {
+  .section-enrollment .enrolment-content .table-content .buy-btn a {
+    font-size: 16px;
+    padding: 7px 20px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .payments-content
+    .input-label
+    .card-number {
+    max-width: 100%;
+  }
+  .section-enrollment .enrolment-content .payments-content .input-label input {
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .section-enrollment
+    .enrolment-content
+    .new-videos-content
+    .new-video-info
+    h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  footer .footer-content .icon-list li a i {
+    font-size: 20px;
+  }
+  footer .footer-content .icon-list li {
+    padding: 0 5px;
+  }
+  footer .footer-content .support span {
+    padding-left: 10px;
+  }
+  footer .footer-content .support span {
+    font-size: 17px;
+  }
+  footer .footer-content .support i {
+    font-size: 20px;
+  }
+  .payment-confirmation-popup .payment-confirmation-popup-content h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .payment-confirmation-popup
+    .payment-confirmation-popup-content
+    .popup-button
+    a {
+    margin-bottom: 20px;
+    padding: 9px 42px;
+    margin-right: 20px;
+  }
+  .payment-confirmation-popup .payment-confirmation-popup-content h2 {
+    padding-bottom: 0;
+  }
+}

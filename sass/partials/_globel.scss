@@ -1,0 +1,33 @@
+// globel css strats here
+*{
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Brandon Grotesque';
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1531px;
+    margin: 0 auto;
+}
+.container-fluid{
+    max-width: 100%;
+    margin: 0 auto;
+}
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+h1,h2,h3,h4,h5,h6,div,span,p,li,ul,ol,a,label{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}

@@ -1,0 +1,77 @@
+header {
+  padding: 5px 0;
+  box-shadow: 0px 4px 20px rgba(65, 130, 249, 0.15);
+}
+header .header-content ul li {
+  padding: 0 20px;
+}
+header .header-content ul li a {
+  font-size: 24px;
+  font-weight: 420;
+  line-height: 34px;
+}
+header .header-content ul li a:hover {
+  color: #3dbd7e !important;
+}
+header .header-content form .form-search {
+  display: none;
+}
+header .header-content form a {
+  color: #000000;
+}
+header .header-content form a:hover {
+  color: #3dbd7e !important;
+}
+header .header-content form input {
+  max-width: 85px;
+  font-size: 24px;
+  font-weight: 390;
+  border: none;
+  padding: 5px 0;
+}
+header .header-content form input:focus {
+  box-shadow: none;
+}
+header .header-content form input::placeholder {
+  font-size: 24px;
+  font-weight: 390;
+}
+header .header-content form .profile-nav {
+  display: none;
+  position: absolute;
+  top: 95px;
+  right: 12px;
+  width: 222px;
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  z-index: 1;
+}
+header .header-content form .profile-nav li {
+  padding: 10px 0;
+}
+header .header-content form .profile-nav li:hover {
+  background-color: #0B1425;
+}
+header .header-content form .profile-nav li:hover span {
+  color: #ffffff;
+}
+header .header-content form .profile-nav li i {
+  font-size: 24px;
+  color: #cccccc;
+  padding-left: 22px;
+}
+header .header-content form .profile-nav li span {
+  text-transform: capitalize;
+  padding-left: 22px;
+}
+header .header-content form .search-icon {
+  margin-right: 20px;
+  font-size: 26px;
+  line-height: 0;
+}
+header .header-content form .filter-icon {
+  margin-left: 20px;
+  font-size: 26px;
+}
